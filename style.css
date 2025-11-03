@@ -1,0 +1,41 @@
+body {
+ background-image: url(AKO.png);
+	background-size: cover;
+	background-attachment:fixed ;
+} 
+.Navname {
+	animation: bounceInLeft;
+	animation-duration: 1s;
+}
+.Photo1 {
+	width: 80px;
+    padding: 5px;
+}
+.Welcome2 {
+	background: rgba(0%, 0%, 0%, .7);
+	border-radius: 10px;
+}
+.Choices {
+	margin: 20px;
+}
+.navbar {
+	position: fixed;
+    border-bottom: 2px black solid;
+}
+
+.bg-yellow {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.table, .table th, .table td {
+  background: transparent !important;
+  border-color: rgba(255, 255, 255, 0.3)
+}
+
+.End {
+    background-color: aliceblue !important;
+    border-radius: 5px;
+    border-left: 5px orange solid;
+    padding: 8px;
+}
